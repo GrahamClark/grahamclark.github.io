@@ -1,0 +1,32 @@
+#
+# Blog Settings
+#
+author: Graham Clark
+description:
+url: http://grahamclark.github.io
+title: typeof(Blog);
+subtitle:
+gravatar_url: http://www.gravatar.com/avatar/8fbb73f29572e75c1a55b84838136a97
+subscribe_rss:
+
+# Github repositories
+github_user: GrahamClark
+github_repo_url: https://github.com/GrahamClark/grahamclark.github.io/
+
+# Twitter
+twitter_user: GrahamGraygar
+twitter_tweet_button: true
+
+#
+# Jekyll Settings
+#
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+permalink: /perm/:year/:month/:day/:title/
+paginate: 20
+paginate_path: "page/:num"
+category_dir: categories
+
+gems:
+  - jekyll-sitemap
